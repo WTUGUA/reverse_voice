@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFEFE</color>
+    <color name="colorPrimaryDark">#FFFEFE</color>
+    <color name="colorAccent">#FC2E55</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000</color>
+    <color name="shade_color">#14000000</color>
+    <color name="bgToolbar">#2c292e</color>
+    <color name="bgLight">#3B363C</color>
+    <color name="bgMusicEnable">#252226</color>
+    <color name="bgMusicDisable">#3A363C</color>
+    <color name="bgDark">#1B1B1C</color>
+
+    <color name="text_color">#454545</color>
+    <color name="deliver_color">#EDECEC</color>
+    <color name="diver_color">#E6E6E6</color>
+</resources>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ark.custom:webview:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/37827ebb5e600bd97d702cfbd52b5dac/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/37827ebb5e600bd97d702cfbd52b5dac/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ark.custom/webview/1.0.0/2b42e40f5af2e6cd45b14618ebc3e5a142ba3422/webview-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ark.custom/webview/1.0.0/ab84f906086f1991b85ac9123dd34034e4e39fbd/webview-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

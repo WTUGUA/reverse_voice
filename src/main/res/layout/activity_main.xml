@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/include_title"/>
+
+
+    <EditText
+            android:id="@+id/et_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="文字配音是一款文字转换为语音的配音软件，轻松实现文本语音转换，适用于听力制作、有声朗读、等多种场景。"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:textSize="14sp"
+            android:gravity="top"
+            android:background="@null"/>
+
+    <RelativeLayout
+            android:id="@+id/rl_nav"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/navi_bottom_bg"
+            android:paddingTop="15dp"
+            android:orientation="horizontal">
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+        >
+
+            <LinearLayout
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="33dp">
+                <ImageView
+                        android:id="@+id/iv_control"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_play_red_24dp"
+                />
+            </LinearLayout>
+
+
+            <TextView
+                    android:id="@+id/tv_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:textColor="@color/text_color"
+                    android:text="00:00"
+            />
+
+            <SeekBar
+                    android:id="@+id/pb_play"
+                    android:layout_width="0dp"
+                    style="@style/CustomSeekbarStyle"
+                    android:layout_weight="1"
+
+                    android:minHeight="3dp"
+                    android:layout_marginStart="8dp"
+                    android:max="100"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/tv_end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:textColor="@color/text_color"
+                    android:layout_marginEnd="32dp"
+                    android:text="00:00"
+            />
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="24dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginEnd="48dp"
+        >
+            <Button
+                    android:id="@+id/bt_man"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@mipmap/icon_zhubo"
+                    android:background="@android:color/transparent"
+                    android:text="主播"/>
+            <View android:layout_width="0dp"
+                  android:layout_height="1dp"
+                  android:layout_weight="1"/>
+
+
+            <Button
+                    android:id="@+id/bt_speed"
+                    android:layout_width="wrap_content"
+                    android:drawableTop="@mipmap/icon_yusu"
+                    android:background="@android:color/transparent"
+                    android:layout_height="wrap_content"
+                    android:text="语速"/>
+            <View android:layout_width="0dp"
+                  android:layout_height="1dp"
+                  android:layout_weight="1"/>
+            <Button
+                    android:id="@+id/bt_voice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@mipmap/icon_voice"
+                    android:text="音量"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../convert/convert.iml" filepath="$PROJECT_DIR$/../convert/convert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core.iml" filepath="$PROJECT_DIR$/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../recorder/recorder.iml" filepath="$PROJECT_DIR$/../recorder/recorder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../refresh-footer/refresh-footer.iml" filepath="$PROJECT_DIR$/../refresh-footer/refresh-footer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../refresh-header/refresh-header.iml" filepath="$PROJECT_DIR$/../refresh-header/refresh-header.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../refresh-layout/refresh-layout.iml" filepath="$PROJECT_DIR$/../refresh-layout/refresh-layout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sound/sound.iml" filepath="$PROJECT_DIR$/../sound/sound.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sound-master.iml" filepath="$PROJECT_DIR$/../sound-master.iml" />
+    </modules>
+  </component>
+</project>

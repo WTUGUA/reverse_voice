@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ark.custom:permissions:1.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bc9c4f414b90d9e98ed673536e3c012d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bc9c4f414b90d9e98ed673536e3c012d/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ark.custom/permissions/1.0.2/11f571d2068f5e310991983952a0943edefdfde8/permissions-1.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ark.custom/permissions/1.0.2/dc54003c8f067dbb7cdb3b3692780fce63763054/permissions-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

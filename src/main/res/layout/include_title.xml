@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="?attr/colorPrimary"
+        app:contentInsetStart="0dp"
+>
+
+    <RelativeLayout
+            android:id="@+id/toolbar_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="left">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/toolbar_back"/>
+    </RelativeLayout>
+
+    <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            tools:text="@string/app_name"/>
+
+
+    <RelativeLayout
+            android:id="@+id/rl_complete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:visibility="gone"
+            android:layout_marginRight="16dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                android:paddingTop="4dp"
+                android:layout_centerInParent="true"
+                android:paddingBottom="4dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/toolbar_complete"
+                android:text="生成"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+        />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.Toolbar>

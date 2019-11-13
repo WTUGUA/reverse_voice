@@ -1,0 +1,169 @@
+apply plugin: 'com.android.application'
+apply plugin: 'channel'
+buildscript {
+    repositories {
+        maven {
+            url "file:///Users/litao/localMaven"
+        }
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.leon.channel:plugin:2.0.3'
+    }
+}
+rebuildChannel {
+    //指定渠道文件
+    channelFile = file("channel.txt")
+    baseReleaseApk = file("C:/Users/mayn/Desktop/release/app-release_11_jiagu_sign.apk")
+    //默认为new File(project.buildDir, "rebuildChannel/debug")
+    //默认为new File(project.buildDir, "rebuildChannel/release")
+    releaseOutputDir = new File(project.buildDir, "rebuildChannel")
+    //快速模式：生成渠道包时不进行校验（速度可以提升10倍以上，默认为false）
+    isFastMode = false
+    //低内存模式（仅针对V2签名，默认为false）：只把签名块、中央目录和EOCD读取到内存，不把最大头的内容块读取到内存，在手机上合成APK时，可以使用该模式
+    lowMemory = false
+}
+channel {
+    //指定渠道文件
+    channelFile = file("channel.txt")
+    //多渠道包的输出目录，默认为new File(project.buildDir,"channel")
+    baseOutputDir = new File(project.buildDir, "channel")
+    //多渠道包的命名规则，默认为：${appName}-${versionName}-${versionCode}-${flavorName}-${buildType}
+    apkNameFormat = '${appName}-${versionName}-${versionCode}-${flavorName}-${buildType}'
+    //快速模式：生成渠道包时不进行校验（速度可以提升10倍以上，默认为false）
+    isFastMode = false
+    //buildTime的时间格式，默认格式：yyyyMMdd-HHmmss
+    buildTimeDateFormat = 'yyyyMMdd-HH:mm:ss'
+    //低内存模式（仅针对V2签名，默认为false）：只把签名块、中央目录和EOCD读取到内存，不把最大头的内容块读取到内存，在手机上合成APK时，可以使用该模式
+    lowMemory = false
+}
+android {
+    compileSdkVersion rootProject.ext.android["compileSdkVersion"]
+
+    useLibrary 'org.apache.http.legacy'
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId "com.vavapps.sound"
+        minSdkVersion rootProject.ext.android["minSdkVersion"]
+        targetSdkVersion rootProject.ext.android["targetSdkVersion"]
+        versionCode rootProject.ext.android["versionCode"]
+        versionName rootProject.ext.android["versionName"]
+        testInstrumentationRunner rootProject.ext.dependencies["androidJUnitRunner"]
+        manifestPlaceholders = [UMENG_CHANNEL_VALUE: "huawei"]
+        ndk {
+            abiFilters "armeabi-v7a"
+        }
+    }
+    signingConfigs {
+        release {
+            storeFile file("androidesk-release-key.keystore")
+            storePassword "yada2002"
+            keyAlias "mykey"
+            keyPassword "yada2002"
+        }
+
+        debug {
+            storeFile file("androidesk-release-key.keystore")
+            storePassword "123456"
+            keyAlias "mykey"
+            keyPassword "123456"
+        }
+    }
+    buildTypes {
+        debug {
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            buildConfigField "boolean", "USE_CANARY", "true"
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+
+        release {
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            buildConfigField "boolean", "USE_CANARY", "false"
+            minifyEnabled false
+//            shrinkResources true
+//            zipAlignEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+    lintOptions {
+        disable 'InvalidPackage'
+        disable "ResourceType"
+        abortOnError false
+    }
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'me.jessyan:arms:2.5.0'
+    implementation 'me.jessyan:arms-imageloader-glide:2.5.0'
+    implementation 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+    implementation project(':sound')
+    implementation project(':convert')
+    implementation project(':recorder')
+    implementation project(':refresh-layout')
+    implementation project(':refresh-footer')
+    implementation project(':refresh-header')
+    //view
+    implementation rootProject.ext.dependencies["autosize"]
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    annotationProcessor(rootProject.ext.dependencies["butterknife-compiler"]) {
+        exclude module: 'support-annotations'
+    }
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.46'
+    implementation files('libs/Sunflower.jar')
+    implementation files('libs/Msc.jar')
+    implementation files('libs/TarsosDSP-Android-latest.jar')
+
+
+    implementation 'com.orhanobut:dialogplus:1.11@aar'
+    //tools
+    annotationProcessor rootProject.ext.dependencies["dagger2-compiler"]
+
+    //注意 Arms 核心库现在并不会依赖某个 EventBus, 要想使用 EventBus, 还请在项目中自行依赖对应的 EventBus
+    //现在支持两种 EventBus, greenrobot 的 EventBus 和畅销书 《Android源码设计模式解析与实战》的作者 何红辉 所作的 AndroidEventBus
+    //依赖后 Arms 会自动检测您依赖的 EventBus 并自动注册
+    //建议使用 AndroidEventBus, 特别是组件化项目, 原因请看 https://github.com/hehonghui/AndroidEventBus/issues/49
+    //这种做法可以让使用者有自行选择三方库的权利, 并且还可以减轻 Arms 的体积
+    implementation rootProject.ext.dependencies["androideventbus"]
+//    implementation rootProject.ext.dependencies["eventbus"]
+
+    //test
+    debugImplementation rootProject.ext.dependencies["canary-debug"]
+    releaseImplementation rootProject.ext.dependencies["canary-release"]
+    testImplementation rootProject.ext.dependencies["canary-release"]
+    testImplementation rootProject.ext.dependencies["junit"]
+
+    implementation 'com.github.microshow:RxFFmpeg:2.1.0'
+    implementation 'com.umeng.umsdk:analytics:8.0.0'
+    implementation 'com.umeng.umsdk:common:2.0.0'
+
+    def room_version = "1.1.1"
+    implementation "android.arch.persistence.room:runtime:$room_version"
+    implementation 'android.arch.persistence.room:rxjava2:1.1.1'
+    annotationProcessor "android.arch.persistence.room:compiler:$room_version"
+
+
+    api 'com.leon.channel:helper:2.0.3'
+    implementation 'com.ark.ads:core:1.2.7'
+    implementation 'com.ark.ads:basics:1.2.7'
+    implementation 'com.ark.ads:gdt:1.2.7'
+    implementation 'com.ark.ads:ttad:1.2.7'
+    implementation files('libs/GDTUnionSDK.4.19.574.min.jar')
+    implementation 'com.ark.custom:kvalue:1.0.1'
+}

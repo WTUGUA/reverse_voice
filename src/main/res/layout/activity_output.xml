@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/include_title"/>
+
+
+    <TextView
+            android:layout_marginTop="23dp"
+            android:layout_marginStart="18dp"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="配音文件"
+    />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/output_layout_shape"
+    >
+
+        <LinearLayout
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="13dp">
+            <ImageView
+                    android:id="@+id/iv_control"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_play_red_24dp"
+            />
+        </LinearLayout>
+
+
+        <TextView
+                android:id="@+id/tv_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:textColor="@color/text_color"
+                android:text="00:00"
+        />
+
+        <SeekBar
+                android:id="@+id/pb_play"
+                android:layout_width="0dp"
+                style="@style/CustomSeekbarStyle"
+                android:layout_weight="1"
+                android:minHeight="3dp"
+                android:layout_marginStart="8dp"
+                android:max="100"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/tv_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7dp"
+                android:textColor="@color/text_color"
+                android:layout_marginEnd="32dp"
+                android:text="00:00"
+        />
+    </LinearLayout>
+
+    <EditText
+            android:id="@+id/et_file_name"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:hint="设置配音标题"
+            android:textSize="13sp"
+    />
+
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+    >
+        <Button
+                android:id="@+id/bt_save"
+                android:layout_width="104dp"
+                android:layout_height="40dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:text="@string/only_save"
+                android:background="@drawable/output_save_shape"
+        />
+        <Button
+                android:id="@+id/bt_save_share"
+                android:layout_width="104dp"
+                android:layout_height="40dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="40dp"
+                android:text="分享"
+                android:background="@drawable/output_save_shape"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>
