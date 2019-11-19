@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="270dp"
+    android:background="@drawable/bg_phone_call"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/tanchuang_bg"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="支持我们"
+        android:textSize="17sp"
+        android:textColor="#181724"
+        />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打赏1元支持我们，1天内您将不会看到任何广告，感谢您的支持！"
+        android:layout_margin="20dp"
+        android:textSize="13sp"
+        android:textColor="#7E8185"
+        />
+
+
+    <Button
+        android:id="@+id/bt_ali"
+        android:layout_width="230dp"
+        android:layout_height="44dp"
+        android:background="@drawable/bg_blue"
+        android:textColor="@color/white"
+        android:text="支付宝支付"
+        android:textSize="16sp"
+        />
+
+   <Button
+        android:id="@+id/bt_wechat"
+        android:layout_width="230dp"
+        android:layout_height="44dp"
+        android:background="@drawable/bg_green"
+        android:layout_marginTop="14dp"
+        android:textColor="@color/white"
+        android:text="微信支付"
+        android:textSize="16sp"
+        android:layout_marginBottom="30dp"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="15dp">
+
+    </View>
+
+
+</LinearLayout>

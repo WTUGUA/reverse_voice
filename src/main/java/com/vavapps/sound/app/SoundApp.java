@@ -1,17 +1,29 @@
 package com.vavapps.sound.app;
 
+import android.content.BroadcastReceiver;
 import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
 
 import com.iflytek.cloud.SpeechUtility;
 import com.jess.arms.base.BaseApplication;
 import com.leon.channel.helper.ChannelReaderUtil;
+import com.tencent.mm.opensdk.constants.ConstantsAPI;
+import com.tencent.mm.opensdk.openapi.IWXAPI;
+import com.tencent.mm.opensdk.openapi.WXAPIFactory;
+import com.umeng.analytics.MobclickAgent;
 import com.vavapps.sound.R;
+import com.vavapps.sound.app.utils.Constants;
 import com.vavapps.sound.mvp.model.database.AppDatabase;
 import com.umeng.commonsdk.UMConfigure;
 
 import tech.oom.idealrecorder.IdealRecorder;
 
 public class SoundApp extends BaseApplication {
+    public static final int REQUEST_CODE_CONVERT = 2333;
+    public static final int REQUEST_CODE_RECORD = 2334;
+    public static final String WEIXIN_ID = "wxc2f757492cdf765d";
+    public static IWXAPI wxAPi;
 
     private static Context mContext;
     public static String umeng_channel;
@@ -36,6 +48,8 @@ public class SoundApp extends BaseApplication {
         mContext = this;
         umeng_channel = ChannelReaderUtil.getChannel(getApplicationContext());
         UMConfigure.init(mContext, "5db801693fc195fca200002e", umeng_channel, UMConfigure.DEVICE_TYPE_PHONE, null);
+        MobclickAgent.setPageCollectionMode(MobclickAgent.PageMode.LEGACY_MANUAL);
+        UMConfigure.setLogEnabled(true);
         IdealRecorder.init(this);
 
 //        try {
@@ -47,6 +61,17 @@ public class SoundApp extends BaseApplication {
 //        } catch (PackageManager.NameNotFoundException e) {
 //            e.printStackTrace();
 //        }
+        wxAPi = WXAPIFactory.createWXAPI(this, Constants.WX_APP_ID, true);
+        // 将应用的appId注册到微信
+        wxAPi.registerApp(Constants.WX_APP_ID);
+        //建议动态监听微信启动广播进行注册到微信
+        registerReceiver(new BroadcastReceiver() {
+            @Override
+            public void onReceive(Context context, Intent intent) {
+                // 将该app注册到微信
+                wxAPi.registerApp(Constants.WX_APP_ID);
+            }
+        }, new IntentFilter(ConstantsAPI.ACTION_REFRESH_WXAPP));
     }
 
 

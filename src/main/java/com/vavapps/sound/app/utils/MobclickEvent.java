@@ -21,6 +21,8 @@ public class MobclickEvent {
     public static final String HomePagePlay = "homePage_play";
     //首页点击分享
     public static final String HomePageVoiceShare = "homePageVoiceShare";
+    //内购
+    public static final String BtnPay = "btn_pay";
 
 
     //配音详情点击更多操作的次数

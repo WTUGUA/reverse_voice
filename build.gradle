@@ -15,7 +15,7 @@ buildscript {
 rebuildChannel {
     //指定渠道文件
     channelFile = file("channel.txt")
-    baseReleaseApk = file("C:/Users/mayn/Desktop/release/app-release_11_jiagu_sign.apk")
+    baseReleaseApk = file("C:/Users/mayn/Desktop/release/core-release_21_jiagu_sign.apk")
     //默认为new File(project.buildDir, "rebuildChannel/debug")
     //默认为new File(project.buildDir, "rebuildChannel/release")
     releaseOutputDir = new File(project.buildDir, "rebuildChannel")
@@ -164,6 +164,9 @@ dependencies {
     implementation 'com.ark.ads:basics:1.2.7'
     implementation 'com.ark.ads:gdt:1.2.7'
     implementation 'com.ark.ads:ttad:1.2.7'
+    implementation 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
+    implementation files('libs/alipaySdk-15.5.9-20181123210657.aar')
     implementation files('libs/GDTUnionSDK.4.19.574.min.jar')
     implementation 'com.ark.custom:kvalue:1.0.1'
+    implementation 'org.greenrobot:eventbus:3.1.1'
 }

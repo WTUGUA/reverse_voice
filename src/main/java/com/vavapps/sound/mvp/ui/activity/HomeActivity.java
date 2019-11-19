@@ -95,7 +95,7 @@ public class HomeActivity extends BaseActivity<HomePresenter> implements HomeCon
     }
     @OnClick(R.id.test)
     public void goRevsrse(){
-        MobclickAgent.onEvent(this, MobclickEvent.AudioPlaysBack);
+        MobclickAgent.onEvent(HomeActivity.this, MobclickEvent.AudioPlaysBack);
         Intent intent=new Intent();
         intent.setClass(this, ReverseAudioActivity.class);
         startActivity(intent);
