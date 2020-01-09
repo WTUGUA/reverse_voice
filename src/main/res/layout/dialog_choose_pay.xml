@@ -10,7 +10,7 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="120dp"
         android:scaleType="fitXY"
         android:src="@drawable/tanchuang_bg"
         />
@@ -19,6 +19,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:text="支持我们"
         android:textSize="17sp"
         android:textColor="#181724"
@@ -39,8 +40,8 @@
         android:id="@+id/bt_ali"
         android:layout_width="230dp"
         android:layout_height="44dp"
-        android:background="@drawable/bg_blue"
-        android:textColor="@color/white"
+        android:background="@drawable/shape"
+        android:textColor="@color/bule"
         android:text="支付宝支付"
         android:textSize="16sp"
         />
@@ -49,18 +50,58 @@
         android:id="@+id/bt_wechat"
         android:layout_width="230dp"
         android:layout_height="44dp"
-        android:background="@drawable/bg_green"
+        android:background="@drawable/shape2"
         android:layout_marginTop="14dp"
-        android:textColor="@color/white"
+        android:textColor="@color/green"
         android:text="微信支付"
         android:textSize="16sp"
-        android:layout_marginBottom="30dp"
         />
+    <LinearLayout
+        android:id="@+id/bt_sp"
+        android:layout_width="230dp"
+        android:layout_height="44dp"
+        android:background="@drawable/vip_pop_ups_btn_bg3"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="30dp">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/vip_pop_icon_video"
+            android:layout_gravity="center"
+            android:layout_marginLeft="45dp"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="免费解锁"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginLeft="7dp"
+            ></TextView>
+        <TextView
+            android:id="@+id/text_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N"
+            android:textSize="18sp"
+            android:textColor="@color/yellow"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2dp"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="次"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2dp"
+            ></TextView>
+    </LinearLayout>
+
+
     <View
         android:layout_width="wrap_content"
         android:layout_height="15dp">
-
     </View>
-
-
 </LinearLayout>

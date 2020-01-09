@@ -13,28 +13,32 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
-        android:networkSecurityConfig="@xml/network_security_config"
-        android:name="com.vavapps.sound.app.SoundApp"
+        android:name=".app.SoundApp"
         android:allowBackup="true"
+        tools:replace="android:icon"
         android:icon="@mipmap/icon_logo"
         android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.vavapps.sound.mvp.ui.activity.HomeActivity"
+        <activity android:name=".mvp.ui.activity.SettingActivity"></activity>
+        <activity android:name=".mvp.ui.activity.WebViewActivity" />
+        <activity
+            android:name=".mvp.ui.activity.HomeActivity"
             android:launchMode="singleTop"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
 
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
 
-        <activity android:name="com.vavapps.sound.mvp.ui.activity.ReverseAudioActivity" />
+        <activity android:name=".mvp.ui.activity.ReverseAudioActivity" />
         <activity
-            android:name="com.vavapps.sound.mvp.ui.activity.SaveAudioActivity"
+            android:name=".mvp.ui.activity.SaveAudioActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.vavapps.sound.mvp.ui.activity.SplashActivity"
+            android:name=".mvp.ui.activity.SplashActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -44,13 +48,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.vavapps.sound.mvp.ui.activity.MainActivity"
+            android:name=".mvp.ui.activity.MainActivity"
             android:label="制作配音"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.vavapps.sound.mvp.ui.activity.ChoosePlayerActivity"
+            android:name=".mvp.ui.activity.ChoosePlayerActivity"
             android:label="选择主播"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:taskAffinity="net.sourceforge.simcpux"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <meta-data
             android:name="UMENG_CHANNEL"

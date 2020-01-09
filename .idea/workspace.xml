@@ -8,45 +8,42 @@
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31b422f2-52d1-44d7-8848-3188913790a6" name="Default Changelist" comment="项目第一次上传">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___D__sound_sound_master_core_libs_alipaySdk_15_5_9_20181123210657_aar_unspecified_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_tencent_mm_opensdk_wechat_sdk_android_without_mta_5_5_7_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_greenrobot_eventbus_3_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/AdsShowUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/DayTryTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/GetRealTimeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/event/WeixinPayEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/AliOrderEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/PayResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/TryTimeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/VipPriceEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/WechatOrderEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/WechatPayResultEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/view/ChoosePayDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/view/PayStatuDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/wxapi/WXpayEntryActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/xml/network_security_config.xml" afterDir="false" />
+    <list default="true" id="31b422f2-52d1-44d7-8848-3188913790a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_tencent_mm_opensdk_wechat_sdk_android_without_mta_5_5_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/view/YsDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/shape.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/shape2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/shape3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/shape4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/dialog_yingsi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/xml/file_paths.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_ark_ads_basics_1_2_7_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_ark_ads_basics_1_2_7_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_ark_ads_core_1_2_7_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_ark_ads_core_1_2_7_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_11_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_11_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_14_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_14_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_tencent_mm_opensdk_wechat_sdk_android_without_mta_5_5_7_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-release.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-release_11_jiagu_sign.apk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/release/core-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/release/core-release.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/release/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/release/output.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/SoundApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/SoundApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/HeaderSpf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/HeaderSpf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/MobclickEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/MobclickEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/WechatPayResultEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/WechatPayResultEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/view/ChoosePayDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/view/ChoosePayDialog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/activity/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/activity/HomeActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/activity/ReverseAudioActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/activity/ReverseAudioActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/activity/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/activity/SplashActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_reverse_audio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_reverse_audio.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/wxapi/WXpayEntryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vavapps/sound/wxapi/WXPayEntryActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/dialog_choose_pay.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/dialog_choose_pay.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,10 +102,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/activity/ReverseAudioActivity.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/view/SaveDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="155" column="42" selection-start-line="155" selection-start-column="42" selection-end-line="155" selection-end-column="42" />
+            <state relative-caret-position="59">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/presenter/HomePresenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/fragment/PlayerFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-300">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,92 +132,66 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/AdsShowUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="17" column="89" selection-start-line="17" selection-start-column="89" selection-end-line="17" selection-end-column="89" />
+            <state relative-caret-position="209">
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/SoundApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../config.gradle">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/Constans.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+            <state relative-caret-position="60">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/DayTryTime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="60">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/GetRealTimeUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/widget/SpacesItemDecoration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/view/ChoosePayDialog.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/presenter/MainPresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="196">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_splash.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-          <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/layout/dialog_choose_pay.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/presenter/SaveAudioPresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+            <state relative-caret-position="196">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
             </state>
           </provider>
-          <provider editor-type-id="android-designer2" />
         </entry>
       </file>
     </leaf>
@@ -211,9 +200,35 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="layoutResourceFile" />
         <option value="resourceFile" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>WXpayEntryActivity</find>
+      <find>WeixinPayEvent</find>
+      <find>Eventbuss</find>
+      <find>Eventbus</find>
+      <find>oncra</find>
+      <find>onev</find>
+      <find>EventBus</find>
+      <find>onevent</find>
+      <find>oncr</find>
+      <find>bundle</find>
+      <find>sta</find>
+      <find>static</find>
+      <find>permissions</find>
+      <find>onRevers</find>
+      <find>mttRewardVideoAd</find>
+      <find>reverse</find>
+      <find>ad</find>
+      <find>read</find>
+      <find>on</find>
+      <find>sp</find>
+      <find>bt_sp</find>
+    </findStrings>
   </component>
   <component name="GenerateSignedApkSettings">
     <option name="KEY_STORE_PATH" value="D:\sound\sound-master\key\androidesk-release-key.keystore" />
@@ -227,7 +242,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/novv/core/app/utils/HeaderSpf.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/novv/core/mvp/ui/activity/SaveAudioActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/novv/core/mvp/ui/activity/HomeActivity.java" />
@@ -237,42 +251,53 @@
         <option value="$PROJECT_DIR$/src/main/java/com/vavapps/audio/app/SoundApp.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_home.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/vavapps/reversevoice/mvp/ui/activity/ReverseAudioActivity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/activity/HomeActivity.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_splash.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/activity/SplashActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/SoundApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/event/WeixinPayEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/wxapi/WXpayEntryActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/AliOrderEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/PayResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/VipPriceEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/WechatOrderEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/WechatPayResultEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/HeaderSpf.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/GetRealTimeUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/view/PayStatuDialog.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/view/Chos.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/AdsShowUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/TryTimeEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/res/xml/network_security_config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/kuina/audio/mvp/ui/activity/SplashActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kuina/audio/mvp/ui/activity/ReverseAudioActivity.java" />
-        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/MobclickEvent.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_reverse_audio.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/wxapi/WXpayEntryActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/WechatPayResultEntity.java" />
+        <option value="$PROJECT_DIR$/../build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/wxapi/WXPayEntryActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/MobclickEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/res/xml/file_paths.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/xml/network_security_config.xml" />
+        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/activity/SplashActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/activity/ReverseAudioActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/res/drawable/shape.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/drawable/shape2.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/view/ChoosePayDialog.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/dialog_choose_pay.xml" />
         <option value="$PROJECT_DIR$/../config.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/activity/ReverseAudioActivity.java" />
         <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/activity/HomeActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/res/drawable/shape4.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/dialog_yingsi.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/view/YsDialog.java" />
+        <option value="$PROJECT_DIR$/src/main/res/drawable/shape3.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-22" />
-    <option name="width" value="1254" />
+    <option name="x" value="-53" />
+    <option name="width" value="1210" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -282,150 +307,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="sound-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sound-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sound-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sound-master" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="sound-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sound-master" type="462c0819:PsiDirectoryNode" />
-              <item name="sound" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="vavapps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="vavapps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="sound" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="vavapps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="sound" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="mvp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="vavapps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="sound" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="mvp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="vavapps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="sound" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="mvp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="activity" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="key" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
               <item name="sound-master" type="1abcf292:AndroidViewProjectNode" />
               <item name="core" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="sound-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="core" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
             </path>
             <path>
               <item name="sound-master" type="1abcf292:AndroidViewProjectNode" />
@@ -479,27 +367,8 @@
               <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="vavapps" type="462c0819:PsiDirectoryNode" />
               <item name="sound" type="462c0819:PsiDirectoryNode" />
-              <item name="di" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sound-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="core" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="vavapps" type="462c0819:PsiDirectoryNode" />
-              <item name="sound" type="462c0819:PsiDirectoryNode" />
-              <item name="di" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sound-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="core" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="vavapps" type="462c0819:PsiDirectoryNode" />
-              <item name="sound" type="462c0819:PsiDirectoryNode" />
-              <item name="di" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sound-master" type="1abcf292:AndroidViewProjectNode" />
@@ -666,6 +535,12 @@
               <item name="sound-master" type="1abcf292:AndroidViewProjectNode" />
               <item name="core" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
@@ -676,11 +551,247 @@
             </path>
             <path>
               <item name="sound-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="sound" type="feadf853:AndroidModuleNode" />
+              <item name="core" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="xml" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="sound-master" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="vavapps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="vavapps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sound" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="vavapps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sound" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mvp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="vavapps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sound" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mvp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="vavapps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sound" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mvp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="activity" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\sound\sound-master" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="key" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sound-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sound-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sound-master" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sound-master" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sound-master" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sound-master" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sound-master" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sound-master" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vavapps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sound-master" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vavapps" type="462c0819:PsiDirectoryNode" />
+              <item name="sound" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sound-master" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vavapps" type="462c0819:PsiDirectoryNode" />
+              <item name="sound" type="462c0819:PsiDirectoryNode" />
+              <item name="mvp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sound-master" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vavapps" type="462c0819:PsiDirectoryNode" />
+              <item name="sound" type="462c0819:PsiDirectoryNode" />
+              <item name="mvp" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sound-master" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vavapps" type="462c0819:PsiDirectoryNode" />
+              <item name="sound" type="462c0819:PsiDirectoryNode" />
+              <item name="mvp" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sound-master" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vavapps" type="462c0819:PsiDirectoryNode" />
+              <item name="sound" type="462c0819:PsiDirectoryNode" />
+              <item name="wxapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sound-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sound-master" type="462c0819:PsiDirectoryNode" />
+              <item name="sound" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -703,7 +814,7 @@
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="android.sdk.path" value="D:/Android/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -723,7 +834,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.core [reBuildChannel]">
+  <component name="RunManager" selected="Android App.core">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -827,7 +938,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573642370816</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="项目第二次上传">
+      <created>1574128601316</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574128601316</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -844,7 +962,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2194206" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2473176" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -852,129 +970,282 @@
       <window_info id="Resources Explorer" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.49946353" visible="true" weight="0.37284234" />
-      <window_info anchor="bottom" id="TODO" order="1" weight="0.32906976" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.13233602" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.5523256" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5005365" side_tool="true" weight="0.15420023" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.49946353" weight="0.3521289" />
+      <window_info anchor="bottom" id="TODO" order="1" weight="0.32796317" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.40161106" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.55120826" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50107294" side_tool="true" weight="0.26352128" />
       <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32949308" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32220945" />
-      <window_info anchor="bottom" id="Logcat" order="8" sideWeight="0.49946353" weight="0.57882625" />
-      <window_info anchor="bottom" id="Android Profiler" order="9" weight="0.3256617" />
-      <window_info anchor="bottom" id="Find" order="10" weight="0.32911393" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49892703" visible="true" weight="0.28423476" />
+      <window_info anchor="bottom" id="Logcat" order="8" sideWeight="0.49946353" weight="0.23820484" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" weight="0.3256617" />
+      <window_info active="true" anchor="bottom" id="Find" order="10" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Statistic" order="11" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Gradle" order="1" visible="true" weight="0.12446352" />
+      <window_info anchor="right" id="Gradle" order="1" weight="0.13090129" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Flutter Inspector" order="3" />
-      <window_info anchor="right" id="Flutter Outline" order="4" />
+      <window_info anchor="right" id="Flutter Outline" order="4" weight="0.3299356" />
+      <window_info anchor="right" id="Word Book" order="5" side_tool="true" weight="0.3299356" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Device File Explorer" order="7" side_tool="true" weight="0.3299356" />
+      <window_info anchor="right" id="Preview" order="8" weight="0.23444206" />
+      <window_info anchor="right" id="Assistant" order="9" weight="0.3299356" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17489271" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.49946353" weight="0.24395858" />
+      <window_info anchor="bottom" id="TODO" order="1" weight="0.32796317" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.30724972" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.55120826" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5005365" side_tool="true" weight="0.3406214" />
+      <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32949308" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" sideWeight="0.49946353" visible="true" weight="0.26352128" />
+      <window_info anchor="bottom" id="Logcat" order="8" sideWeight="0.49946353" weight="0.31070197" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" weight="0.3256617" />
+      <window_info active="true" anchor="bottom" id="Find" order="10" visible="true" weight="0.32911393" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Gradle" order="1" weight="0.08798283" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Flutter Inspector" order="3" />
+      <window_info anchor="right" id="Flutter Outline" order="4" weight="0.3299356" />
       <window_info anchor="right" id="Word Book" order="5" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Device File Explorer" order="7" side_tool="true" />
       <window_info anchor="right" id="Preview" order="8" />
-    </layout>
+      <window_info anchor="right" id="Assistant" order="9" weight="0.3299356" />
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目第一次上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目第一次上传" />
+    <MESSAGE value="项目第二次上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目第二次上传" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/SaveAudioModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/WechatPayResultEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="60">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/contract/SaveAudioContract.java">
+    <entry file="file://$PROJECT_DIR$/src/main/res/xml/file_paths.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="120">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/AdsShowUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/AppLifecyclesImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="83" column="43" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
+        <state relative-caret-position="390">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/MobclickEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2580">
+          <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/bg_phone_call.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../config.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../convert/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/dialog_choose_pay.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/view/ChoosePayDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/Constants.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/activity/ReverseAudioActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+        <state relative-caret-position="28050">
+          <caret line="1041" selection-start-line="1041" selection-end-line="1041" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/event/WeixinPayEvent.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="720">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/xml/network_security_config.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/player/MusicPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="120">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/WechatPayResultEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/player/PlayerListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-651">
-          <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
+        <state relative-caret-position="60">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/activity/SplashActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="1950">
+          <caret line="88" column="72" selection-start-line="88" selection-start-column="72" selection-end-line="88" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1734#1735#0" expanded="true" />
-            <element signature="e#1778#1779#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/AliOrderEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/adapter/AudioHistoryAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/TryTimeEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/adapter/PlayerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/view/YsDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" selection-start-line="2" selection-end-line="71" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/shape2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/shape3.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/shape4.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-          </folding>
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/VipPriceEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/shape.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+        <state relative-caret-position="210">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/PayResult.java">
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/dialog_yingsi.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-670">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="244">
+          <caret line="44" column="37" lean-forward="true" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/activity/ChoosePlayerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/activity/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5730">
+          <caret line="222" lean-forward="true" selection-start-line="222" selection-end-line="222" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -983,78 +1254,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/contract/HomeContract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
+        <state relative-caret-position="196">
           <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/EventBusTags.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/contract/MainContract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="196">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/ActivityLifecycleCallbacksImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/contract/SaveAudioContract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/GlobalConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2515">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/GlobalHttpHandlerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-535">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/presenter/SaveAudioPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-895">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/presenter/HomePresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/HomeModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/MainModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/entity/AudioEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/entity/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-750">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="196">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1065,198 +1280,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/contract/MainContract.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/event/WeixinPayEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="60">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/di/module/MainModule.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/entity/AudioEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        <state relative-caret-position="150">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/di/component/SaveAudioComponent.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/api/Api.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="320">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/ResponseErrorListenerImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/database/AudioHistoryDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-625">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="150">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/database/AppDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/AliOrderEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/view/PayStatuDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/view/SaveDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+        <state relative-caret-position="59">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/presenter/HomePresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/presenter/MainPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/presenter/SaveAudioPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/widget/SpacesItemDecoration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
+        <state relative-caret-position="120">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/fragment/PlayerFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/activity/ChoosePlayerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/activity/HomeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="90" column="55" selection-start-line="90" selection-start-column="55" selection-end-line="90" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/WechatOrderEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/dialog_paying.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/dialog_payfaile.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/dialog_pay.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/view/PayStatuDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+        <state relative-caret-position="-300">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ark.custom/kvalue/1.0.1/af7107e614ed09389f7aadc427d94d9b4ad5a1ee/kvalue-1.0.1-sources.jar!/com/ark/dict/ConfigMapLoader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/Constans.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1050">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="60">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/MobclickEvent.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/DayTryTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        <state relative-caret-position="60">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_reverse_audio.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/AdsShowUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6180">
-          <caret line="206" column="18" selection-start-line="206" selection-start-column="18" selection-end-line="206" selection-end-column="18" />
+        <state relative-caret-position="209">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../config.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/utils/GetRealTimeUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/model/view/ChoosePayDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_splash.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/dialog_choose_pay.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/app/SoundApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vavapps/sound/mvp/ui/activity/ReverseAudioActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="155" column="42" selection-start-line="155" selection-start-column="42" selection-end-line="155" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="89" selection-start-line="17" selection-start-column="89" selection-end-line="17" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="270">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
         </state>
       </provider>
     </entry>

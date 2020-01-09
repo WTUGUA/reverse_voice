@@ -23,6 +23,8 @@ public class MobclickEvent {
     public static final String HomePageVoiceShare = "homePageVoiceShare";
     //内购
     public static final String BtnPay = "btn_pay";
+    public static final String LookVideoTimes= "look_video_times";
+
 
 
     //配音详情点击更多操作的次数

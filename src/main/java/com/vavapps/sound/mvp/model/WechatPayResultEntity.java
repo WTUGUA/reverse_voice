@@ -8,7 +8,7 @@ public class WechatPayResultEntity {
     /**
      * code : 0
      * msg : null
-     * res : {"appid":"wxb512d991de42d2af","partnerid":"1525928551","prepayid":"wx1418022466096123dd2eadcb4225911507","noncestr":"OscnEXVvHEsaVwpn","timestamp":1557828144,"package":"Sign=WXPay","sign":"4973D31506E87CC895A947592C0971C6"}
+     * res : {"appid":"wxa61b14bfaaac6004","partnerid":"1525928551","prepayid":"wx1418022466096123dd2eadcb4225911507","noncestr":"OscnEXVvHEsaVwpn","timestamp":1557828144,"package":"Sign=WXPay","sign":"4973D31506E87CC895A947592C0971C6"}
      */
 
     private int code;
@@ -63,7 +63,7 @@ public class WechatPayResultEntity {
 
     public static class PayData{
         /**
-         * appid : wxb512d991de42d2af
+         * appid : wxa61b14bfaaac6004
          * partnerid : 1525928551
          * prepayid : wx1418022466096123dd2eadcb4225911507
          * noncestr : OscnEXVvHEsaVwpn
